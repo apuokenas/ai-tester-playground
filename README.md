@@ -1,6 +1,11 @@
 # AI Tester Playground
 
 Welcome to the **AI Tester Playground**, an interactive environment designed to leverage AI for various Quality Assurance (QA) tasks. This repository provides a set of tools and examples that demonstrate how to analyze error messages, generate test descriptions, and create comprehensive test cases using OpenAI's language models.
+There is no magic involved - just a layer between the AI model that processes input parameters and guides output. The tricky part is selecting the right model, properties, good prompts, quality data, and integrating it as part of the process.
+
+## History
+
+Alexander Gyulai [spoke at the TestCon Europe 2024](https://youtu.be/VgD-znzqohM) about [how they at AUTO1 Group are using AI in the QA department](https://www.linkedin.com/posts/alexander-gyulai-7a579424_github-auto1-ossai-tester-playground-activity-7262093228051468288-XJuL) and shared his experience on [how AI is transforming their QA department and driving real change](https://www.linkedin.com/posts/alexander-gyulai-7a579424_ai-qualityassurance-softwaretesting-activity-7254874146893942784-ihfQ). Many attendees asked for practical examples, so Alexander created a free-to-use playground for QA engineers to experiment with generative AI tools.
 
 ## Table of Contents
 
@@ -25,15 +30,15 @@ Welcome to the **AI Tester Playground**, an interactive environment designed to 
 
 Before you begin, ensure you have met the following requirements:
 
-- **Node.js**: Version 14 or higher. You can download it from [Node.js Official Website](https://nodejs.org/).
-- **OpenAI API Key**: Obtain an API key from [OpenAI](https://openai.com/).
+- **Node.js**: v14+. Download it from [Node.js download page](https://nodejs.org/en/download). Suggesting to use the latest active LTS release.
+- **OpenAI API Key**: Obtain an API key from [OpenAI API Platform](https://platform.openai.com/settings/organization/api-keys).
 
 ## Installation
 
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/agyulai/ai-tester-playground.git
+   git clone https://github.com/apuokenas/ai-tester-playground.git
    cd ai-tester-playground
    ```
 
