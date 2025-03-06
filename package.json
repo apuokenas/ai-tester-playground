@@ -15,7 +15,7 @@
     "@langchain/core": "^0.3.42",
     "@langchain/openai": "0.0.34",
     "axios": "^1.7.2",
-    "better-sse": "^0.12.1",
+    "better-sse": "^0.14.1",
     "body-parser": "^1.20.2",
     "cors": "^2.8.5",
     "dotenv": "^16.3.1",
